@@ -17,7 +17,7 @@
 | ------------- | ------------- | ------------- |------------- |
 | 1. | Polkadot blockchain scrutiny, data transfer to PostgreSQL (for data aggregation and statistics building)|Link| This step will bring us some vital milestones: our database will contain all the transactions - new ones sourced directly from the blockchain will be also stored in our database that is convenient for the development needs (balance/rewards charts creation, etc.)| 
 | 2.  |Source code|https://github.com/Eranity/citadelpolkadot/blob/main/sourceCode.js| Source code for blockhain integration on our platform |
-| 3.  |Testing|  https://github.com/Eranity/citadelpolkadot/tree/main| Testing the parser with mocha test|
+| 3.  |Testing|  https://github.com/Eranity/citadelpolkadot/blob/main/testing.js | Testing the parser with mocha test|
 
 
 | Task ID | Module name | Description | Link |
