@@ -16,13 +16,13 @@
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
 | 1. | Analysis of network's staking transaction, search for necessary libraries or APIs;determination of transaction preparation logic; writing logic; signing; writing the send logic. Polkadot validator list parsing. |Link| ...| 
-| 2.  |Source code|[link ](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/imports/iPolkadot.js)| Source code for blockhain integration on our platform |
+| 2.  |Source code|[link ]| Source code for blockhain integration on our platform |
 | 3.  |Testing| [link for testing]| video stake |
 
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
-| 1.0 | Writing logic for delegation of coins| To get rewards from nodes, delegate and stake coins | [link](RAKW backend code) |
-| 1.1 | Implementation of prepared delegation transaction | For the server send necessary information for preparing transaction | [link](https://github.com/Eranity/citadelpolkadot/blob/main/preparestake.js) |
-| 1.2 | Signing of delegation transaction | After getting of signing data from server, implement signAndSendTransaction method | [link](https://github.com/Eranity/citadelpolkadot/blob/main/stake.js) |
-| 2.0 | Stake nodes | Showing the list of staked nodes, ability to stake new nodes | [link](https://github.com/Eranity/citadelpolkadot/tree/main/stakenodes) |
+| 1.0 | Logic for delegation of coins| Get rewards from nodes, delegate and stake coins | [link](Backend code) |
+| 1.1 | Implementation of prepared delegation transaction | Information to prepare transaction | https://github.com/Eranity/citadelpolkadot/blob/main/preparestake.js |
+| 1.2 | Signing of delegation transaction | Sign data from server, implement signAndSendTransaction method | https://github.com/Eranity/citadelpolkadot/blob/main/stake.js |
+| 2.0 | Stake nodes | Show the list of staked nodes, ability to stake new nodes | https://github.com/Eranity/citadelpolkadot/tree/main/stakenodes |
