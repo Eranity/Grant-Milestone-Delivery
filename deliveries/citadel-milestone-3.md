@@ -25,4 +25,5 @@
 | 1.0 | Parsing transactions| Download all blocks with transactions to our database | link  |
 | 2.0 | Connector with methods: (isSystemAddress, validateAddress, getLastBlock, getOneBlock, filterOperations, getDelegationBalanceInfo) | methods for processing a transactions | link |
 | 3.0 | Download the list of validators | Downloading the validators list for staking. This process done by automated script. | link |
+| 3.1 | List of validators by address | Get the list of validators by address who is nominated| link |
 | 4.0 | Currency exchange data and market caps | Download, update and store currency exchange data and the market caps |link |
