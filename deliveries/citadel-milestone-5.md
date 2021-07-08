@@ -21,8 +21,8 @@
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
-| 1.0 | Logic for signing transactions| Recieve a signature from the user when operation in process | [link](https://github.com/Eranity/citadelpolkadot/blob/main/oneseed-polkadot.ts)  |
-| 1.1 | Implementation of prepare transfer transaction | For the server send necessary information for preparing transaction | [link](https://github.com/Eranity/citadelpolkadot/blob/main/sendtransaction.js) |
-| 1.2 | Signing of sending transfer transaction | After getting of signing data from server, implement signAndSendTransaction method | [link](https://github.com/Eranity/citadelpolkadot/blob/main/sendtransaction.js) |
-| 2.0 | Show list of transactions | Checking availability of transaction in polkascan | [link](https://github.com/Eranity/citadelpolkadot/blob/main/listoftransaction.js) |
+| 1.0 | Logic for signing transactions| Recieve a signature from the user when operation in process | https://github.com/Eranity/citadelpolkadot/blob/main/oneseed-polkadot.ts  |
+| 1.1 | Implementation of prepare transfer transaction | For the server send necessary information for preparing transaction | https://github.com/Eranity/citadelpolkadot/blob/main/sendtransaction.js |
+| 1.2 | Signing of sending transfer transaction | After getting of signing data from server, implement signAndSendTransaction method | https://github.com/Eranity/citadelpolkadot/blob/main/sendtransaction.js |
+| 2.0 | Show list of transactions | Checking availability of transaction in polkascan | https://github.com/Eranity/citadelpolkadot/blob/main/listoftransaction.js |
 
