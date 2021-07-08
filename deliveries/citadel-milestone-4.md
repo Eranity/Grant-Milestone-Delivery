@@ -22,7 +22,7 @@
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
-| 1.0 | Build transactions | Create unsigned transaction with requested properties| [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildTransactions.js) |
+| 1.0 | Build transactions | Create unsigned transaction with requested properties| [link] |
 | 1.1 | Build transfers | Create unsigned transaction for transferring balances | [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildTransfer.js) |
 | 1.1.0 | Build transfer | Create transaction for transferring some liquid free balance to another account | [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildTransfer.js) |
 | 1.1.1 | Build transferKeepAlive | Create transaction for transferring balance, but with a check that a transfer will not kill the origin account | [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildTransfer.js) |
