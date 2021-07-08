@@ -15,9 +15,9 @@
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 1. | Examination of Polkadot transfer methods and staking system|Link| This step will bring us some vital milestones: our database will contain all the transactions - new ones sourced directly from the blockchain will be also stored in our database that is convenient for the development needs (balance/rewards charts creation, etc.)| 
-| 2.  |Source code|[link ](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/imports/iPolkadot.js)| Source code for blockhain integration on our platform |
-| 3.  |Testing| [link for testing](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/test/connectors/polkadot/getOneBlock.js)| Testing the parser with mocha test|
+| 1. | Examination of Polkadot transfer methods and staking system|Link| This is the building step of transactions with requested properties such as: transfer and stake | 
+| 2.  |Source code|[link ](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/imports/iPolkadot.js)| Source code for building transactions |
+
 
 
 | Task ID | Module name | Description | Link |
