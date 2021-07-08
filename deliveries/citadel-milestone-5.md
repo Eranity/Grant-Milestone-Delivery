@@ -16,12 +16,13 @@
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
 | 1. | Analysis of a network's transfer transaction; search for necessary libraries or APIs;determination of transaction preparation logic; writing logic; signing; writing the send logic |...| ...| 
-| 2.  |Source code|[link ](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/imports/iPolkadot.js)| Source code for blockhain integration on our platform |
+| 2.  |Source code|[link ]| Source code for blockhain integration on our platform |
 | 3.  |Testing| [link for testing]| Send transaction demonstration video|
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
-| 1.0 | Writing logic for signing of transaction| When do an operation via polkadot, for example, staking, sending coins, etc. We must receive a signature from the user | [link](https://github.com/Eranity/citadelpolkadot/blob/main/oneseed-polkadot.ts)  |
+| 1.0 | Logic for signing transactions| Recieve a signature from the user when operation in process | [link](https://github.com/Eranity/citadelpolkadot/blob/main/oneseed-polkadot.ts)  |
 | 1.1 | Implementation of prepare transfer transaction | For the server send necessary information for preparing transaction | [link](https://github.com/Eranity/citadelpolkadot/blob/main/sendtransaction.js) |
 | 1.2 | Signing of sending transfer transaction | After getting of signing data from server, implement signAndSendTransaction method | [link](https://github.com/Eranity/citadelpolkadot/blob/main/sendtransaction.js) |
-| 2.0 | Show list of transactions | Availability of checking of transaction in polkascan | [link](https://github.com/Eranity/citadelpolkadot/blob/main/listoftransaction.js) |
+| 2.0 | Show list of transactions | Checking availability of transaction in polkascan | [link](https://github.com/Eranity/citadelpolkadot/blob/main/listoftransaction.js) |
+
