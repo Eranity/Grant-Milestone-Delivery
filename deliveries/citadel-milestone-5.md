@@ -17,7 +17,7 @@
 | ------------- | ------------- | ------------- |------------- |
 | 1. | Analysis of a network's transfer transaction; search for necessary libraries or APIs;determination of transaction preparation logic; writing logic; signing; writing the send logic |...| ...| 
 | 2.  |Source code|[link ](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/imports/iPolkadot.js)| Source code for blockhain integration on our platform |
-| 3.  |Testing| [link for testing](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/test/connectors/polkadot/getOneBlock.js)| Testing the parser with mocha test|
+| 3.  |Testing| [link for testing]| Send transaction demonstration video|
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
