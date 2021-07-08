@@ -22,9 +22,14 @@
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
-| 1.0 | Parsing transactions| Download all blocks with transactions to our database | link  |
-| 2.0 | Connector with methods: (isSystemAddress, validateAddress, getLastBlock, getOneBlock, filterOperations, prepareTransfer, prepareDelegation, getDelegationBalanceInfo, sendTransaction) | multipurpose methods  | link |
-| 2.1 | Evaluate fees for transactions | Get the fee for builded transaction| link |
-| 2.2 | List of validators by address | Get the list of validators by address who is nominated| link |
-| 3.1 | Download the list of validators | Downloading the validators list for staking. This process done by automated script. | link |
-| 4.0 | Currency exchange data and market caps | Download, update and store currency exchange data and the market caps |link |
+| 1.0 | Build transactions | Create unsigned transaction with requested properties| link |
+| 1.1 | Build transfers | Create unsigned transaction for transferring balances | link |
+| 1.1.0 | Build transfer | Create transaction for transferring some liquid free balance to another account | link |
+| 1.1.1 | Build transferKeepAlive | Create transaction for transferring balance, but with a check that a transfer will not kill the origin account | link |
+| 1.2 | Build staking | Create unsigned transaction for staking balances | link |
+| 1.2.0 | Build bond | Create transactions for bonding balances, including a stash account where rewards will drip | link |
+| 1.2.1 | Build bondExtra | Create transactions for adding balances to the bonded ones | link |
+| 2.0 | Create payload | Create a signer payload for builded transaction | link |
+| 2.1 | Insert properties to payload | Insert necessary properties such tip, transactionVersion, genesisHash, blockHash, runtimeVersion, account nonce, extrinsicVersion | link |
+| 3.0 | Evaluate fees for transactions | Get the fee for builded transaction| link |
+
