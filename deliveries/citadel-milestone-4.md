@@ -22,14 +22,14 @@
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
-| 1.0 | Build transactions | Create unsigned transaction with requested properties| link |
-| 1.1 | Build transfers | Create unsigned transaction for transferring balances | link |
-| 1.1.0 | Build transfer | Create transaction for transferring some liquid free balance to another account | link |
-| 1.1.1 | Build transferKeepAlive | Create transaction for transferring balance, but with a check that a transfer will not kill the origin account | link |
-| 1.2 | Build staking | Create unsigned transaction for staking balances | link |
-| 1.2.0 | Build bond | Create transactions for bonding balances, including a stash account where rewards will drip | link |
-| 1.2.1 | Build bondExtra | Create transactions for adding balances to the bonded ones | link |
-| 2.0 | Create payload | Create a signer payload for builded transaction | link |
-| 2.1 | Insert properties to payload | Insert necessary properties such tip, transactionVersion, genesisHash, blockHash, runtimeVersion, account nonce, extrinsicVersion | link |
-| 3.0 | Evaluate fees for transactions | Get the fee for builded transaction| link |
+| 1.0 | Build transactions | Create unsigned transaction with requested properties| [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildTransactions.js) |
+| 1.1 | Build transfers | Create unsigned transaction for transferring balances | [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildTransfer.js) |
+| 1.1.0 | Build transfer | Create transaction for transferring some liquid free balance to another account | [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildTransfer.js) |
+| 1.1.1 | Build transferKeepAlive | Create transaction for transferring balance, but with a check that a transfer will not kill the origin account | [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildTransfer.js) |
+| 1.2 | Build staking | Create unsigned transaction for staking balances | [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildStaking.js) |
+| 1.2.0 | Build bond | Create transactions for bonding balances, including a stash account where rewards will drip | [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildStaking.js) |
+| 1.2.1 | Build bondExtra | Create transactions for adding balances to the bonded ones | [link](https://github.com/Eranity/citadelpolkadot/blob/main/buildStaking.js) |
+| 2.0 | Create payload | Create a signer payload for builded transaction | [link](https://github.com/Eranity/citadelpolkadot/blob/main/payload.js) |
+| 2.1 | Insert properties to payload | Insert necessary properties such tip, transactionVersion, genesisHash, blockHash, runtimeVersion, account nonce, extrinsicVersion | [link](https://github.com/Eranity/citadelpolkadot/blob/main/payload.js) |
+| 3.0 | Evaluate fees for transactions | Get the fee for builded transaction| [link](https://github.com/Eranity/citadelpolkadot/blob/main/evaluateFee.js) |
 
