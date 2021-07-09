@@ -21,8 +21,9 @@
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
-| 1.0 | Logic for signing transactions| Recieve a signature from the user when operation in process | https://github.com/Eranity/citadelpolkadot/blob/main/oneseed-polkadot.ts  |
-| 1.1 | Implementation of prepare transfer transaction | For the server send necessary information for preparing transaction | https://github.com/Eranity/citadelpolkadot/blob/main/sendtransaction.js |
-| 1.2 | Signing of sending transfer transaction | After getting of signing data from server, implement signAndSendTransaction method | https://github.com/Eranity/citadelpolkadot/blob/main/sendtransaction.js |
-| 2.0 | Show list of transactions | Checking availability of transaction in polkascan | https://github.com/Eranity/citadelpolkadot/blob/main/listoftransaction.js |
+| 1.0 | Handle the account by the private key | Create a Keyring object from user's private key to handle the account | https://github.com/Eranity/citadelpolkadot/blob/main/oneseed-polkadot.ts  |
+| 1.1 | Create registry to make RPC calls | Prepare a TypeRegistry with active MetaData for decode extrinsic payload since signing process is offline. | https://gitlab.com/citadel1/citadel_frontend/-/blob/polkadot/lib/citadel/wallet/signing-strategies/base.signing-strategy.ts#L47 |
+| 1.2 | Generate a signature for requested transaction | Generate a signature by signing the Extrinsic Payload with Keyring which stores private key | https://gitlab.com/citadel1/citadel_frontend/-/blob/polkadot/lib/citadel/wallet/signing-strategies/base.signing-strategy.ts#L51 |
+| 1.3 | Request the transaction sending | Send the signature to server to get hash of the transaction on blockchain | https://gitlab.com/citadel1/citadel_frontend/-/blob/polkadot/lib/citadel/wallet/signing-strategies/base.signing-strategy.ts#L56 |
+| 2.0 | Show details of the transaction | Checking availability of transaction in polkascan | https://github.com/Eranity/citadelpolkadot/blob/main/listoftransaction.js |
 
