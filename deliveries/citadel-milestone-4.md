@@ -22,13 +22,13 @@
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
-| 1.0 | Build transactions | Create unsigned transaction with requested properties| [link] |
-| 1.1 | Build transfers | Create unsigned transaction for transferring balances | https://github.com/Eranity/citadelpolkadot/blob/main/buildTransfer.js |
-| 1.1.0 | Build transfer | Create transaction for transferring some liquid free balance to another account | https://github.com/Eranity/citadelpolkadot/blob/main/buildTransfer.js |
-| 1.1.1 | Build transferKeepAlive | Create transaction for transferring balance, but with a check that a transfer will not kill the origin account | https://github.com/Eranity/citadelpolkadot/blob/main/buildTransfer.js |
-| 1.2 | Build staking | Create unsigned transaction for staking balances | https://github.com/Eranity/citadelpolkadot/blob/main/buildStaking.js |
-| 1.2.0 | Build bond | Create transactions for bonding balances, including a stash account where rewards will drip | https://github.com/Eranity/citadelpolkadot/blob/main/buildStaking.js |
-| 1.2.1 | Build bondExtra | Create transactions for adding balances to the bonded ones | https://github.com/Eranity/citadelpolkadot/blob/main/buildStaking.js |
+| 1.0 | Build transactions | Create unsigned transaction with requested properties| https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js |
+| 1.1 | Build transfers | Create unsigned transaction for transferring balances | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L362 |
+| 1.1.0 | Build transfer | Create transaction for transferring some liquid free balance to another account | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L362 |
+| 1.1.1 | Build transferKeepAlive | Create transaction for transferring balance, but with a check that a transfer will not kill the origin account | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L362 |
+| 1.2 | Build staking | Create unsigned transaction for staking balances | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L406 |
+| 1.2.0 | Build bond | Create transactions for bonding balances, including a stash account where rewards will drip | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L406 |
+| 1.2.1 | Build bondExtra | Create transactions for adding balances to the bonded ones | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L406 |
 | 2.0 | Create payload | Create a signer payload for builded transaction | https://github.com/Eranity/citadelpolkadot/blob/main/payload.js |
 | 2.1 | Insert properties to payload | Insert necessary properties such tip, transactionVersion, genesisHash, blockHash, runtimeVersion, account nonce, extrinsicVersion | https://github.com/Eranity/citadelpolkadot/blob/main/payload.js |
 | 3.0 | Evaluate fees for transactions | Get the fee for builded transaction| https://github.com/Eranity/citadelpolkadot/blob/main/evaluateFee.js |
