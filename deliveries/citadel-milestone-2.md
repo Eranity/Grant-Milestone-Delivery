@@ -15,6 +15,15 @@
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 1. | Interface preparation, design elements specifications, and tuning|Link| ...| 
-| 2.  |Source code|[link ](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/imports/iPolkadot.js)| Source code for blockhain integration on our platform |
-| 3.  |Testing| [link for testing](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/test/connectors/polkadot/getOneBlock.js)| Testing the parser with mocha test|
+| 1. | Interface preparation, design elements specifications, and tuning|https://www.figma.com/file/Xj6gXZIXn90l4ADwuE4xlQ/Send, https://www.figma.com/file/OOgENsczG6WytLvrssBBar/Stake| Polkadot send and stake pages| 
+
+
+| Task ID | Module name | Description | Link |
+| ------ | ----------- | ---- | ----- |
+| 1.0 | Send page| Create interface of send transaction  | https://www.figma.com/file/Xj6gXZIXn90l4ADwuE4xlQ/Send |
+| 2.0 | Staking page| Create interface of staking page | https://www.figma.com/file/OOgENsczG6WytLvrssBBar/Stake |
+| 2.1 | Stake nodes| Create components of staking nodes operation | https://www.figma.com/file/OOgENsczG6WytLvrssBBar/Stake |
+| 2.2 | Unstake nodes| Create components of unstaking nodes operation | https://www.figma.com/file/OOgENsczG6WytLvrssBBar/Stake |
+
+
+
