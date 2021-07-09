@@ -22,8 +22,8 @@
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
-| 1.0 | Parsing transactions| Download all blocks with transactions to our database | link  |
-| 2.0 | Connector with methods: (isSystemAddress, validateAddress, getLastBlock, getOneBlock, filterOperations, getDelegationBalanceInfo) | methods for processing a transactions | link |
-| 3.0 | Download the list of validators | Downloading the validators list for staking. This process done by automated script. | link |
-| 3.1 | List of validators by address | Get the list of validators by address who is nominated| link |
-| 4.0 | Currency exchange data and market caps | Download, update and store currency exchange data and the market caps |link |
+| 1.0 | Parsing transactions| Download all blocks with transactions to our database | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L85  |
+| 2.0 | Connector with methods: (isSystemAddress, validateAddress, getLastBlock, getOneBlock, filterOperations, getDelegationBalanceInfo) | Methods for processing a transactions | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L19 |
+| 3.0 | Download the list of validators | Downloading the validators list for staking. This process done by automated script. | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L569 |
+| 3.1 | List of validators by address | Get the list of validators by address who is nominated| https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L564 |
+| 4.0 | Currency exchange data and market caps | Download, update and store currency exchange data and the market caps | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/utils/MarketCap/OtherCoins.js |
