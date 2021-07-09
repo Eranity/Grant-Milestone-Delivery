@@ -15,6 +15,6 @@
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 1. | Citadel will join the Polkadot ecosystem as a validator|Link| ...| 
-| 2.  |Source code|[link ](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/imports/iPolkadot.js)| Source code for blockhain integration on our platform |
-| 3.  |Testing| [link for testing](https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/test/connectors/polkadot/getOneBlock.js)| Testing the parser with mocha test|
+| 1. | Citadel joined the Polkadot ecosystem as a validator | https://polkadot.subscan.io/waiting/14coT8D8CB5L71J2HtKh6aCXZawKkeA8WE3A55qry3qeHJmF | ... | 
+| 2. | Set up the Polkadot node to connect the provider and make RPC calls | no link | Provider is available only for our servers. We check for updates and our node is always up to date. |
+
