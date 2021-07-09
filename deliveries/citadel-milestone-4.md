@@ -15,7 +15,7 @@
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 1. | Examination of Polkadot transfer methods and staking system|Link| This is the building step of transactions with requested properties such as: transfer and stake | 
+| 1. | Examination of Polkadot transfer methods and staking system| ... | This is the building step of transactions with requested properties such as: transfer and stake | 
 | 2.  |Source code| https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/imports/iPolkadot.js| Source code for building transactions |
 
 
