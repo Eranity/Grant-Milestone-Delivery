@@ -15,7 +15,7 @@
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 1. | Analysis of network's staking transaction, search for necessary libraries or APIs;determination of transaction preparation logic; writing logic; signing; writing the send logic. Polkadot validator list parsing. |Link| ...| 
+| 1. | Analysis of network's staking transaction, search for necessary libraries or APIs;determination of transaction preparation logic; writing logic; signing; writing the send logic. Polkadot validator list parsing. | Detailed links applied below | ...| 
 | 2.  |Testing| https://youtu.be/rxaHiIxL6PY | Polkadot stake nodes demonstration video |
 
 
