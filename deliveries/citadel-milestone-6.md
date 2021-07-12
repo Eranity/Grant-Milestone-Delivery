@@ -22,6 +22,6 @@
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
 | 1.0 | Implementation of properties to build nomination and staking transaction | Collecting properties and request the builded transaction | https://github.com/Eranity/citadelpolkadot/blob/main/preparestake.js |
-| 1.1 | Strategy of nominating and staking| Stake and nominate validators to earn rewards | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L381 |
+| 1.1 | Strategy of nominating and staking| Stake and nominate validators to earn rewards | https://github.com/Eranity/citadelpolkadot/blob/main/polkadot.js#L381 |
 | 1.2 | Strategy of signing the nominating and staking transaction | Generate the signature for builded transaction with users private key | https://github.com/Eranity/citadelpolkadot/blob/main/stake.js |
 | 2.0 | Nominated validators | Show the list of nominated and active validators on current era | https://github.com/Eranity/citadelpolkadot/tree/main/stakenodes |
