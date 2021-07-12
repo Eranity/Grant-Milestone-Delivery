@@ -17,7 +17,7 @@
 | ------------- | ------------- | ------------- |------------- |
 | 1. | Analysis of a network's transfer transaction; search for necessary libraries or APIs;determination of transaction preparation logic; writing logic; signing; writing the send logic |...| ...| 
 | 2.  |Source code|Detailed links applied below| Source code for blockhain integration on our platform |
-| 3.  |Testing| https://www.youtube.com/watch?v=HuQiDl2OQ9s&ab_channel=YerassylMurat| Send transaction demonstration video|
+| 3.  |Testing| https://youtu.be/0T8CE3r_xbA | Send transaction demonstration video|
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
