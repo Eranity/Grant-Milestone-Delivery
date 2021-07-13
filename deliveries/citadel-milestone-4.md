@@ -16,7 +16,7 @@
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
 | 1. | Examination of Polkadot transfer methods and staking system| ... | This is the building step of transactions with requested properties such as: transfer and stake | 
-| 2.  |Source code| https://github.com/Eranity/citadelpolkadot/blob/main/iPolkadot.js| Source code for building transactions |
+| 2.  |Source code| https://github.com/Eranity/citadelpolkadot/blob/main/sourceCode.js | Source code for building transactions |
 
 
 
