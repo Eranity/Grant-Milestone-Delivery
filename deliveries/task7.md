@@ -8,5 +8,5 @@
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
 | 1.0 | Multiple currency rates  | Get currency rates and store them in the database to visualize changes on the charts | https://github.com/citadeldao/polkadot/blob/main/OtherCoins.js  |
-| 2.0 | Approximated era duration | We use approximated era duration which is 24 hours to handle the unstaked assets | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L653 |
-| 3.0 | Minimum Nominator Bond value | We use minNominatorBond to optimize the transactions and to avoid fails | https://gitlab.com/gregory.shabalov/citadel_core/-/blob/dev/connectors/polkadot.js#L398 |
+| 2.0 | Approximated era duration | We use approximated era duration which is 24 hours to handle the unstaked assets | https://github.com/citadeldao/polkadot/blob/main/eraduration.js |
+| 3.0 | Minimum Nominator Bond value | We use minNominatorBond to optimize the transactions and to avoid fails | https://github.com/citadeldao/polkadot/blob/main/minnominatorbondvalue.js |
