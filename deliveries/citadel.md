@@ -90,7 +90,7 @@
 | ------------- | ------------- | ------------- |------------- |
 | 1. | Analysis of a network's transfer transaction; search for necessary libraries or APIs;determination of transaction preparation logic; writing logic; signing; writing the send logic |...| ...| 
 | 2.  |Source code|Detailed links applied below| Source code for blockhain integration on our platform |
-| 3.  |Testing| https://youtu.be/0T8CE3r_xbA | Send transaction demonstration video|
+| 3.  |Testing| https://www.youtube.com/watch?v=5HALywJtjaI | Send transaction demonstration video|
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
@@ -109,7 +109,7 @@
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
 | 1. | Analysis of network's staking transaction, search for necessary libraries or APIs;determination of transaction preparation logic; writing logic; signing; writing the send logic. Polkadot validator list parsing. | Detailed links applied below | ...| 
-| 2.  |Testing| https://youtu.be/BcE-KQgXV5k | Polkadot stake nodes demonstration video |
+| 2.  |Testing| https://www.youtube.com/watch?v=QgG87TO_H1E&feature=youtu.be , https://youtu.be/C6V-4a4ULMM | Polkadot stake, unstake nodes demonstration videos |
 
 
 | Task ID | Module name | Description | Link |
@@ -146,10 +146,10 @@
 
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
-| 1.0 | Send page| Create interface of send transaction  | https://www.figma.com/file/eCSNqorfpSe9yBUYOOo9TO/Citadel-mobile%2FPolkadot?node-id=1%3A225 |
-| 1.1 | Staking page| Create interface of staking page | https://www.figma.com/file/eCSNqorfpSe9yBUYOOo9TO/Citadel-mobile%2FPolkadot?node-id=1%3A296 |
-| 1.2 | Stake nodes| Create components of staking nodes operation | https://www.figma.com/file/eCSNqorfpSe9yBUYOOo9TO/Citadel-mobile%2FPolkadot?node-id=1%3A1594 |
-| 1.3 | Unstake nodes| Create components of unstaking nodes operation | https://www.figma.com/file/eCSNqorfpSe9yBUYOOo9TO/Citadel-mobile%2FPolkadot?node-id=1%3A658 |
+| 1.0 | Send page| Create interface of send transaction  | https://www.figma.com/file/sQCbRcJERJmdHOccOE3qou/citadel.one-v2-mobile-polkadot-send?node-id=0%3A1 |
+| 1.1 | Staking page| Create interface of staking page | https://www.figma.com/file/CCn4qdNX2OpDKQMwnhjsdn/citadel.one-v2-mobile-polkadot-stake?node-id=0%3A1 |
+| 1.2 | Stake nodes| Create components of staking nodes operation | https://www.figma.com/file/CCn4qdNX2OpDKQMwnhjsdn/citadel.one-v2-mobile-polkadot-stake?node-id=0%3A1 |
+| 1.3 | Unstake nodes| Create components of unstaking nodes operation | https://www.figma.com/file/ZLbTFaIcAMfsp4KzNSFmxW/citadel.one-v2-mobile-polkadot-unstake?node-id=0%3A1 |
 | 2.0 | Stake  | Stake crypto assets | https://github.com/citadeldao/polkadot/blob/main/stake.dart |
 | 2.1 | Unstake | Unstake crypto assets | https://github.com/citadeldao/polkadot/blob/main/unstake.dart |
 | 2.2 | StakeAndNominate | Stake crypto assets and nominate to validator(-s) to get rewards| https://github.com/citadeldao/polkadot/blob/main/StakeAndNominate.dart|
@@ -167,10 +167,10 @@
 | Task ID | Module name | Description | Link |
 | ------ | ----------- | ---- | ----- |
 | 1.0 | Testing of block details by number | Parse extrinsics and events of block, test for correct different types of transaction properties | https://github.com/citadeldao/polkadot/blob/main/getOneBlock.js|
-| 2.0 | Test every type of transaction | Manually testing of different transactions on the platform | https://www.youtube.com/watch?v=Vs_pWx_Lc1E&ab_channel=CitadelOne |
-| 2.1 | Test transfer | Transfering some balance to the new and elderly another addresses to check if it is possible to avoid the error of the case "an account liquidity restrictions prevent withdrawal" | https://www.youtube.com/watch?v=Vs_pWx_Lc1E&ab_channel=CitadelOne |
-| 2.2 | Test stake and nominate | To check if it is possible to stake and nominate once, since nominating is possible only if the amount to bond or active bonded amount is more than minNominatorBond. | https://www.youtube.com/watch?v=mz_M9y15DT8&ab_channel=CitadelOne |
-| 3.0 | Test list of validators | Check if all active validators at current era appears with identity name | https://www.youtube.com/watch?v=7GydkfHhud8&ab_channel=CitadelOne |
-| 4.0 | Test address balances | Check if all balances of the address are correctly appeared on the platform | https://www.youtube.com/watch?v=cpPm1D_ZWW8&ab_channel=CitadelOne |
-| 5.0 | Test sent transaction hash | Check if hash of the transaction sent on the platform to blockchain is correct on scanners | https://www.youtube.com/watch?v=mBeaQLbAl7Q&ab_channel=CitadelOne |
+| 2.0 | Test every type of transaction, redelegate | Manually testing of different transactions on the platform | https://youtu.be/5HALywJtjaI , https://youtu.be/uvS9lpFgjQ0 |
+| 2.1 | Test transfer | Transfering some balance to the new and elderly another addresses to check if it is possible to avoid the error of the case "an account liquidity restrictions prevent withdrawal" | https://www.youtube.com/watch?v=5HALywJtjaI |
+| 2.2 | Test stake and nominate | To check if it is possible to stake and nominate once, since nominating is possible only if the amount to bond or active bonded amount is more than minNominatorBond. | https://youtu.be/TK_qW7snhYc |
+| 3.0 | Test list of validators | Check if all active validators at current era appears with identity name | https://youtu.be/iZP53X9Ahm0 |
+| 4.0 | Test address balances | Check if all balances of the address are correctly appeared on the platform | https://youtu.be/O1rOCyEDH2A |
+| 5.0 | Test sent transaction hash | Check if hash of the transaction sent on the platform to blockchain is correct on scanners | https://youtu.be/zfFY4Buh11U |
 
